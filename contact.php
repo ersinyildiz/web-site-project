@@ -51,16 +51,11 @@
 
         </div>
         <div id="footer-area">
-            <div class="container footer-inner">
-                <div class="row">
-
-                </div>
-            </div>
             <footer id="site-footer">
                 <div class="site-info container">
                     <div class="row">
                         <nav id="social-menu" style="margin:auto;">
-                            <ul id="social-menu-items">
+                            <ul id="social-menu-items" style="margin:10px;">
                                 <li>
                                     <a href="#"> <img src="images/icon-twitter-48.png"> </a>   
                                 </li>

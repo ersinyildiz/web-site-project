@@ -48,19 +48,21 @@
             </nav>
         </div>
         <div id="content">
-
-        </div>
-        <div id="footer-area">
-            <div class="container footer-inner">
-                <div class="row">
-
+            <div class="container content-area">
+                <div class="entry-header">
+                    <h1 class="entry-title">Hakkında</h1>
+                </div>
+                <div class="entry-content">
+                    <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
                 </div>
             </div>
+        </div>
+        <div id="footer-area">
             <footer id="site-footer">
                 <div class="site-info container">
                     <div class="row">
                         <nav id="social-menu" style="margin:auto;">
-                            <ul id="social-menu-items">
+                            <ul id="social-menu-items" style="margin:10px;">
                                 <li>
                                     <a href="#"> <img src="images/icon-twitter-48.png"> </a>   
                                 </li>

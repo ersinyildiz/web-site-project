@@ -3,8 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
 
     <title>Kişisel Web Sitem</title>
 </head>
@@ -20,8 +23,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Anasayfa <span class="sr-only">(current)</span></a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.php">Anasayfa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.php">Hakkımda</a>
@@ -47,20 +50,15 @@
             
             </nav>
         </div>
-        <div id="content">
-
+        <div id="content" style="min-height:510px;">
+            
         </div>
         <div id="footer-area">
-            <div class="container footer-inner">
-                <div class="row">
-
-                </div>
-            </div>
             <footer id="site-footer">
                 <div class="site-info container">
                     <div class="row">
                         <nav id="social-menu" style="margin:auto;">
-                            <ul id="social-menu-items">
+                            <ul id="social-menu-items" style="margin:10px;">
                                 <li>
                                     <a href="#"> <img src="images/icon-twitter-48.png"> </a>   
                                 </li>
@@ -77,5 +75,6 @@
             </footer>
         </div>
     </div>
+
 </body>
 </html>
