@@ -50,7 +50,7 @@
             
             </nav>
         </div>
-        <div id="content" style="min-height:510px;">
+        <div id="content">
             
         </div>
         <div id="footer-area">
