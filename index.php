@@ -1,12 +1,16 @@
+<?php
+    include 'functions/dbconnect.php';
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
     <title>Kişisel Web Sitem</title>
@@ -42,7 +46,7 @@
                             <a class="nav-link" href="projects.php">Bitirdiğim Projeler</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">İletişim</a>
+                            <a class="nav-link " href="contact.php" >İletişim</a>
                         </li>
                     </ul>
                 </div>
@@ -75,6 +79,5 @@
             </footer>
         </div>
     </div>
-
 </body>
 </html>
